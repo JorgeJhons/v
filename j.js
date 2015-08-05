@@ -1,1 +1,3 @@
-s
+$( document ).ready(function(){
+	 $(".button-collapse").sideNav();
+	});
