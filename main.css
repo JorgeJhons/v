@@ -1,0 +1,37 @@
+*,html{
+	margin: 0px;
+	padding: 0px;
+}  
+#home{
+	background: url(1.jpg) 50% 0 no-repeat fixed;
+}
+#section2{
+	background: url(2.jpg) 100% 0 no-repeat fixed;
+}
+#section3{
+	background: url(3.jpg) 100% 0 no-repeat fixed;
+}
+#section-enblanco{
+	background: white 100% 0 no-repeat fixed;
+}
+#home,#section2,#section3{
+	margin: 0px auto;
+	min-height: 1080px;
+	max-height: 700px;
+	width: 100%;
+	position: relative;
+	-webkit-backgraound-size:cover;
+	-moz-backgraound-size:cover;
+	-o-backgraound-size:cover;
+	background-size: cover;
+}
+#section2, #section3{
+	box-shadow: 0 0 20px rgba(0,0,0,0,4);
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0,4);
+}
+.geek{
+	display: block;
+	height: 368px;
+	margin: 0px auto;
+	width: 571px;
+}
